@@ -141,7 +141,7 @@
 }
 
 .list-item__input {
-    width: 226px
+    width: 226px;
 }
 
 .button__image {
@@ -162,12 +162,12 @@
 
 /* Edit Task */
 .incomplete-tasks__input, .complete-tasks__input {
-    display: none
+    display: none;
 }
 
 .list-item__input_edited {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .list-item__label_edited {
