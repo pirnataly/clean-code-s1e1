@@ -30,9 +30,11 @@
 
 
 @media (max-width: 768px) {
+
     .header {
         text-align: center;
     }
+
 }
 
 .todo-container {
@@ -125,7 +127,10 @@
     list-style: none;
 }
 
-.list-item__checkbox, .list-item__label, .list-item__input, .list-item__button {
+.list-item__checkbox,
+.list-item__label,
+.list-item__input,
+.list-item__button {
     vertical-align: middle;
 }
 
@@ -161,7 +166,8 @@
 }
 
 /* Edit Task */
-.incomplete-tasks__input, .complete-tasks__input {
+.incomplete-tasks__input,
+.complete-tasks__input {
     display: none;
 }
 
