@@ -4,33 +4,37 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header__image {
     width: 100%;
 }
+
 .header__link {
     font-family: fantasy, cursive;
 }
+
 .add-item {
     margin-top: 16px;
 }
 
-.add-item__task-row-wrapper{
+.add-item__task-row-wrapper {
     margin-bottom: 16px;
 }
 
 
+@media (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+}
 
-@media (max-width:768px) {
-.header {
-    text-align: center;
-}
-}
 .todo-container {
     display: block;
     width: 500px;
@@ -38,8 +42,8 @@
 }
 
 .task-row-wrapper {
-     display: flex;
- }
+    display: flex;
+}
 
 
 .task {
@@ -47,9 +51,10 @@
     display: inline-block;
     flex-grow: 1
 }
+
 .incomplete-tasks,
 .completed-tasks {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -62,11 +67,13 @@
     width: 60px;
     font-family: Lato, sans-serif;
     cursor: pointer;
-    outline:none;
+    outline: none;
 }
+
 .button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 .heading {
     color: #333;
@@ -79,8 +86,7 @@
 }
 
 
-
-.input-text{
+.input-text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -93,16 +99,18 @@
     color: #888;
     outline: none;
 }
+
 .input-text:focus {
     color: #333;
 }
 
 /* New Task */
-.add-item__heading  {
+.add-item__heading {
     display: block;
     margin: 0 0 20px;
 }
-.add-item__input{
+
+.add-item__input {
     width: 318px;
 }
 
@@ -114,12 +122,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style:none;
+    list-style: none;
 }
-.list-item__checkbox,
-.list-item__label,
-.list-item__input,
-.list-item__button {
+
+.list-item__checkbox, .list-item__label, .list-item__input, .list-item__button {
     vertical-align: middle;
 }
 
@@ -133,14 +139,17 @@
     font-size: 18px;
     width: 226px;
 }
+
 .list-item__input {
     width: 226px
 }
+
 .button__image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .button__image:hover {
     transform: rotateZ(0);
 }
@@ -152,16 +161,15 @@
 }
 
 /* Edit Task */
-.incomplete-tasks__input,
-.complete-tasks__input {
-    display:none
+.incomplete-tasks__input, .complete-tasks__input {
+    display: none
 }
 
 .list-item__input_edited {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
-.list-item__label_edited{
-    display:none;
+.list-item__label_edited {
+    display: none;
 }
